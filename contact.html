@@ -1,21 +1,37 @@
 <html>
   <head>
       <link rel="stylesheet" href="semantic.css" />
+      <script src="./Scripts/contactform.js"></script>
   </head> 
+
     <body>
-        <div class="four ui buttons">
-            <button class="ui button">
-              <a href="Resume.pdf" download="Resume">Resume</a>
-            </button>
-            <button class="ui button">
-              <a href="about.html">About</a>
-            </button>
-            <button class="ui button">
-              <a href="https://github.com/nate64">Github</a>  
-            </button>
-            <button class="ui button">
-              <a href="index.html">Home</a>
-            </button>
-          </div> 
+      <div class="four ui buttons">
+        <button class="ui button">
+          <a href="Resume.pdf" download="Resume">Resume</a>
+        </button>
+        <button class="ui button">
+          <a href="about.html">About</a>
+        </button>
+        <button class="ui button">
+          <a href="https://github.com/nate64">Github</a>  
+        </button>
+        <button class="ui button">
+          <a href="index.html">Home</a>
+        </button>
+    </div> 
+
+    <form class="Contact">
+      <label for="Name">Please Enter Your Name</label>
+        <input id="name" required>
+      <label for="Email">Email:</label>
+        <input id="email" required>
+      <label for="Message">Message:</label>
+        <textarea id="message" required></textarea>
+      <button>Submit</button>
+    </form>
+      
+  
+
+
     </body>
 </html>
